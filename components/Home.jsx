@@ -17,7 +17,7 @@ function Home() {
         the repo readme</a> for instructions on how to use this boilerplate to deploy your
         own React project using GitHub Pages.
       </p>
-      <div><Link to="/example">Example page</Link></div>
+      <div><Link to="/example">Dan Tennery-Spalding</Link></div>
       <div><Link to="/example/two-deep?field1=foo&field2=bar#boom!">
         Example two deep with query and hash
       </Link></div>
