@@ -59,27 +59,12 @@ function parseRedirectQuery(query, replace) {
 
   replace(redirectTo)
 }
-///////////////////////////////////////////////////////////////////////////////
 
-///////////////////////////////////////////////////////////////////////////////
-// React for GitHub Pages - https://github.com/rafrex/react-github-pages
-// ----------------------------------------------------------------------------
-// Redirect for GitHub Pages from /my-repo-name to just the domain
-// because GitHub Pages are always available at /my-repo-name even when a
-// custom domain is in use. Accessing the site at /my-repo-name will
-// cause the routing to break, so when the site is accessed at /my-repo-name,
-// a redirect to the domain with no path is required.
-// https://help.github.com/articles/custom-domain-redirects-for-github-pages-sites/
-// SET THIS: e.g. my-repo-name
-const gitHubRepoName = 'react-github-pages';
-// The domain for your site
-// SET THIS: e.g. http://subdomain.example.tld, or http://www.example.tld
-const domain = 'http://react-github-pages.rafrex.com';
+const gitHubRepoName = 'gh-pages';
+const domain = 'https://teachrdan.github.io';
 function redirectToDomain() {
   window.location.replace(domain);
 }
-///////////////////////////////////////////////////////////////////////////////
-
 
 const routes = (
   // onEnter hook checks if a redirect is needed before App component is loaded
