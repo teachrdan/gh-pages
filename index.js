@@ -60,7 +60,7 @@ function parseRedirectQuery(query, replace) {
   replace(redirectTo)
 }
 
-const gitHubRepoName = 'gh-pages';
+const gitHubRepoName = 'teachrdan.github.io';
 const domain = 'http://teachrdan.github.io';
 function redirectToDomain() {
   window.location.replace(domain);
