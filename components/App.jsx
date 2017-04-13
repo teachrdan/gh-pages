@@ -23,11 +23,17 @@ function App({ children, routes }) {
 
   return(
     <div style={{maxWidth: '500px'}}>
-      <h2 style={{marginBottom: 0}}>Dan Tennery-Spalding</h2>
-      Content goes here!
-      <nav>
-        {generateMapMenu()}
-      </nav>
+        <p>
+            This is the professional page for Dan Tennery-Spalding. (under construction)
+        </p>
+        <p>
+            <a href="https://blog.apozy.com/were-all-in-this-together-how-sea-pirates-exposed-cybersecuritys-big-lie/">“We're All in this Together”: How Sea Pirates Exposed Cybersecurity's Big Lie</a>
+        </p>
+        {/*
+          <nav>
+            {generateMapMenu()}
+          </nav>
+      */}
       {children}
     </div>
   );

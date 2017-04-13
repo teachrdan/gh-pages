@@ -26199,15 +26199,18 @@
 	    'div',
 	    { style: { maxWidth: '500px' } },
 	    _react2.default.createElement(
-	      'h2',
-	      { style: { marginBottom: 0 } },
-	      'Dan Tennery-Spalding'
-	    ),
-	    'Content goes here!',
-	    _react2.default.createElement(
-	      'nav',
+	      'p',
 	      null,
-	      generateMapMenu()
+	      'This is the professional page for Dan Tennery-Spalding. (under construction)'
+	    ),
+	    _react2.default.createElement(
+	      'p',
+	      null,
+	      _react2.default.createElement(
+	        'a',
+	        { href: 'https://blog.apozy.com/were-all-in-this-together-how-sea-pirates-exposed-cybersecuritys-big-lie/' },
+	        '\u201CWe\'re All in this Together\u201D: How Sea Pirates Exposed Cybersecurity\'s Big Lie'
+	      )
 	    ),
 	    children
 	  );
@@ -26234,24 +26237,7 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function Home() {
-	  return _react2.default.createElement(
-	    'div',
-	    null,
-	    _react2.default.createElement(
-	      'p',
-	      null,
-	      'This is the professional page for Dan Tennery-Spalding. (under construction)'
-	    ),
-	    _react2.default.createElement(
-	      'p',
-	      null,
-	      _react2.default.createElement(
-	        'a',
-	        { href: 'https://blog.apozy.com/were-all-in-this-together-how-sea-pirates-exposed-cybersecuritys-big-lie/' },
-	        '\u201CWe\'re All in this Together\u201D: How Sea Pirates Exposed Cybersecurity\'s Big Lie'
-	      )
-	    )
-	  );
+	  return _react2.default.createElement('div', null);
 	}
 
 	exports.default = Home;
