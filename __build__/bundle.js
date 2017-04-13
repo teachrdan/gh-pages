@@ -129,8 +129,8 @@
 	  replace(redirectTo);
 	}
 
-	var gitHubRepoName = 'teachrdan.github.io';
-	var domain = 'http://teachrdan.github.io';
+	var gitHubRepoName = 'gh-pages';
+	var domain = 'https://teachrdan.github.io';
 	function redirectToDomain() {
 	  window.location.replace(domain);
 	}
@@ -26211,9 +26211,15 @@
 	    _react2.default.createElement(
 	      'h2',
 	      { style: { marginBottom: 0 } },
-	      'Dan Tennery-Spalding'
+	      'React for GitHub Pages'
 	    ),
-	    'Content goes here!',
+	    _react2.default.createElement(
+	      'a',
+	      { href: 'https://github.com/rafrex/react-github-pages',
+	        style: { marginBottom: '1em', display: 'block' }
+	      },
+	      'https://github.com/rafrex/react-github-pages'
+	    ),
 	    _react2.default.createElement(
 	      'nav',
 	      null,
@@ -26250,7 +26256,18 @@
 	    _react2.default.createElement(
 	      'p',
 	      null,
-	      'This is the professional page for Dan Tennery-Spalding.'
+	      'This is an example single page app using the React for GitHub Pages boilerplate. It is built with React and React Router using browserHistory. Navigate with the links below and refresh the page or copy/paste the url to test out the redirect functionality deployed to overcome GitHub Pages incompatibility with single page apps (like this one).'
+	    ),
+	    _react2.default.createElement(
+	      'p',
+	      null,
+	      'Please see ',
+	      _react2.default.createElement(
+	        'a',
+	        { href: 'https://github.com/rafrex/react-github-pages#readme' },
+	        'the repo readme'
+	      ),
+	      ' for instructions on how to use this boilerplate to deploy your own React project using GitHub Pages.'
 	    ),
 	    _react2.default.createElement(
 	      'div',
@@ -26258,7 +26275,7 @@
 	      _react2.default.createElement(
 	        _reactRouter.Link,
 	        { to: '/example' },
-	        'Dan Tennery-Spalding'
+	        'Example page'
 	      )
 	    ),
 	    _react2.default.createElement(
