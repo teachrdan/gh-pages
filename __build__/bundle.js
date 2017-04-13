@@ -137,17 +137,7 @@
 
 	var routes =
 	// onEnter hook checks if a redirect is needed before App component is loaded
-	_react2.default.createElement(
-	  _reactRouter.Route,
-	  { path: '/', mapMenuTitle: 'Home', component: _App2.default, onEnter: checkForRedirect },
-	  _react2.default.createElement(_reactRouter.IndexRoute, { component: _Home2.default }),
-	  _react2.default.createElement(
-	    _reactRouter.Route,
-	    { path: 'example', mapMenuTitle: 'Example', component: _ExampleComponent2.default },
-	    _react2.default.createElement(_reactRouter.Route, { path: 'two-deep', mapMenuTitle: 'Two Deep', component: _ExampleTwoDeepComponent2.default })
-	  ),
-	  _react2.default.createElement(_reactRouter.Route, { path: '*', mapMenuTitle: 'Page Not Found', component: _PageNotFound2.default })
-	);
+	_react2.default.createElement(_reactRouter.Route, { path: '/', mapMenuTitle: 'Home', component: _App2.default, onEnter: checkForRedirect });
 
 	(0, _reactDom.render)(_react2.default.createElement(_reactRouter.Router, {
 	  history: _reactRouter.browserHistory,
@@ -26250,24 +26240,15 @@
 	    _react2.default.createElement(
 	      'p',
 	      null,
-	      'This is the professional page for Dan Tennery-Spalding.'
+	      'This is the professional page for Dan Tennery-Spalding. (under construction)'
 	    ),
 	    _react2.default.createElement(
-	      'div',
+	      'p',
 	      null,
 	      _react2.default.createElement(
-	        _reactRouter.Link,
-	        { to: '/example' },
-	        'Dan Tennery-Spalding'
-	      )
-	    ),
-	    _react2.default.createElement(
-	      'div',
-	      null,
-	      _react2.default.createElement(
-	        _reactRouter.Link,
-	        { to: '/example/two-deep?field1=foo&field2=bar#boom!' },
-	        'Example two deep with query and hash'
+	        'a',
+	        { href: 'https://blog.apozy.com/were-all-in-this-together-how-sea-pirates-exposed-cybersecuritys-big-lie/' },
+	        '\u201CWe\'re All in this Together\u201D: How Sea Pirates Exposed Cybersecurity\'s Big Lie'
 	      )
 	    )
 	  );

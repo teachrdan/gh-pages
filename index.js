@@ -77,8 +77,8 @@ const routes = (
     </Route>
 
     <Route path="*" mapMenuTitle="Page Not Found" component={PageNotFound} />
-  </Route>
     */}
+  </Route>
 );
 
 render(
