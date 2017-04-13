@@ -26199,6 +26199,11 @@
 	    'div',
 	    { style: { maxWidth: '500px' } },
 	    _react2.default.createElement(
+	      'h2',
+	      { style: { marginBottom: 0 } },
+	      'Dan Tennery-Spalding'
+	    ),
+	    _react2.default.createElement(
 	      'p',
 	      null,
 	      'This is the professional page for Dan Tennery-Spalding. (under construction)'
@@ -26209,7 +26214,7 @@
 	      _react2.default.createElement(
 	        'a',
 	        { href: 'https://blog.apozy.com/were-all-in-this-together-how-sea-pirates-exposed-cybersecuritys-big-lie/' },
-	        '\u201CWe\'re All in this Together\u201D: How Sea Pirates Exposed Cybersecurity\'s Big Lie'
+	        'Post about sea pirates & cybersecurity'
 	      )
 	    ),
 	    children
