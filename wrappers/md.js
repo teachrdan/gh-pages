@@ -2,7 +2,6 @@ import React from 'react'
 import moment from 'moment'
 import Helmet from 'react-helmet'
 import { fixLinks } from 'utils'
-import Disqus from 'components/Disqus'
 import Komments from 'components/Komments'
 import { prefixLink } from 'gatsby-helpers'
 import ReadNext from 'components/ReadNext'
@@ -58,13 +57,6 @@ class MarkdownWrapper extends React.Component {
             <div className="article" ref="markdown" dangerouslySetInnerHTML={{__html: post.body}} />
             <Tags post={post} style={style.Tags} />
             <ReadNext post={post} pages={route.pages} />
-            <GithubIssues />
-            {config.disqusShortname ? <Disqus
-                                        shortname={config.disqusShortname}
-                                        title={post.title}
-                                        identifier={route.page.path}
-                                        url={`${config.blogUrl}${prefixLink(route.page.path)}`} /> : null}
-            {config.kommentsCode ? <Komments code={config.kommentsCode} /> : null}
             <Contact />
           </div>
         </div>
