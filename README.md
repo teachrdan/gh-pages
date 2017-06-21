@@ -4,7 +4,7 @@ blog starter by gatsby
 
 inspirated by [gatsby-starter-drunkenblog](https://github.com/konsumer/gatsby-starter-drunkenblog)
 
-[blog site Address](https://blog.guoli.im/)
+[blog site Address](https://teachrdan.github.io/)
 
 ## Installing
 
