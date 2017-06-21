@@ -1,8 +1,5 @@
-blogTitle = "Guoliim Blog"
-blogUrl = "https://guoliim.github.io"
-linkPrefix = "/guoliim-blog"
-# gaCode = "UA-0000000-0"
-# disqusShortname = "https://https-guoliim-github-io"
-# kommentsCode = "00000000-0000-0000-0000-000000000000"
-email = 'im@guoli.im'
-github = 'https://github.com/guoliim'
+blogTitle = "Code, Interrupted"
+blogUrl = "https://teachrdan.github.io/"
+linkPrefix = "/"
+email = 'teachrdan(A)gmail.com'
+github = 'https://github.com/teachrdan'

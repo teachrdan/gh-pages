@@ -64,7 +64,7 @@
     "develop": "gatsby develop",
     "build": "gatsby build",
     "deploysss": "gatsby build --prefix-links && gh-pages -d public",
-    "deploy": "gatsby build && gh-pages -r https://github.com/guoliim/guoliim.github.io.git -b master -d public"
+    "deploy": "gatsby build && gh-pages -r https://github.com/teachrdan/teachrdan.github.io.git -b master -d public"
   },
   "eslintConfig": {
     "extends": "eslint-config-airbnb",
