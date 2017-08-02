@@ -1,8 +1,8 @@
 ---
 title: Command Line Cop
-date: "2017-06-21T10:25:00"
+date: "2017-06-21T09:00:00"
 layout: post
-path: "/blog-idea-command-line-cop/"
+path: "/2017-06-21-command-line-cop/"
 tags:
 	- comment
 ---
